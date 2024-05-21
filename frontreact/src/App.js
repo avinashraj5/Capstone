@@ -11,7 +11,7 @@ function App() {
     event.preventDefault();
     setIsLoading(true);
     try {
-      const result = await axios.post('http://localhost:3000/predict', { question: question });
+      const result = await axios.post('https://capstone-1-ue6z.onrender.com/predict', { question: question });
       setResponse(result.data.predictions[0].content);
     } catch (error) {
       console.error(error);
