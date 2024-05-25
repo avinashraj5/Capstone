@@ -18,7 +18,7 @@ app.use((req, res, next) => {
 app.post('/predict', cors(), async (req, res) => {
  try {
     // Use the provided auth token directly
-    const authToken = 'ya29.a0AXooCgsNsnlB5qDGJBSY1Blmq3-CuVLU1xJyUkMiDyqvanDfcaXjcBoZX27NfAz_ZpWxYvWskZ6dPZM0drRadyc2PEGUVf9HRjE5znOvk2nZ47S6sOj-DgqWe6Afeo1kiOOwmPpsFUmkO5JXsrzf-_oXSSFTEZmKhAAY-Ai4BsO9JmPIaX-7ibZcflggYdsGWKo5lt8T5Z_e2JB8mzx9AEMBl39AXlM9tnsb_4nCWm1K1TZLTmXlTwk12g0IAek00ctSmcSxzuov7T2cY9236RGD3eQLeiSy_SjnvxiWI8iUIYHGCoYv3ev1vXqIDIo_sZBMYgB4itPqYGhHN-QqJXOxzcMkgSUirF6f6Ph3aw4ZKz6dwNwaEc-RE0zPqoE3qFFYlmfYMJZS9xyGalVfF-TYXrvT8X0aCgYKAcQSARESFQHGX2MidSVyTfM9mpGPqCGAMObC0w0422';
+    const authToken = 'ya29.a0AXooCgvJI55gr43QkUkI5KUf4E9ogYLH7YCaB210aShWy4qNZq9gHs3pxwn7vOx2fxryM5xYvbNLyo1e-ZMnnL1-RgjfnMCRaiNeBbSUTyVoVamPgMgNZpZS1jy_NSpMnBdXlVa3vxZCEB0bkRzRD9X6OLPVtc2BGeyoUb8trQZhex5epbzZFD9nH822tefUcy6qLWR9vbvAcUi7eYNGTs3GSKTh5XITM0UP12KQ79YY9VU4VzLOpcIrTlOudxyUjmiey_jQLGKttqHh4Qk1mT9mKoUe0XQKt3JMb_BIdJieN5Uig3mSLrOCA8NXyxccF9nX4d_GDINLY0ekcYZt67aE0-su_Cwr41tRM-OH3cpUVF6CkHBW8SyD6cvJTynGWBWgn4xknGydSBU82d8tHwBL0RFOBaD2aCgYKAVQSARESFQHGX2MifG9GC1jzxuvbsR9ckoVUFw0423';
 
     const API_ENDPOINT = "us-central1-aiplatform.googleapis.com";
     const PROJECT_ID = "zinc-code-419604";
